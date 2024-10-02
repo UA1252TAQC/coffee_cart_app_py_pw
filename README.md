@@ -23,7 +23,12 @@ https://coffee-cart.app/
 	pip install -r requirements.txt
 	```
 
-4. Run the script:
+4. Create a [`.env`](.env) file in the root of your project with the following content:
+	```plaintext
+	BASE_URL=
+	```
+
+5. Run tests:
 	```sh
-	python main.py
+	pytest
 	```
